@@ -1,0 +1,32 @@
+name: LottoWorld
+version: '${version}'
+main: com.lio_e28.lottoworld.LottoWorld
+api-version: '1.20'
+commands:
+  lottosetting:
+    description: 로또 당첨 번호 랜덤 생성
+  lottocheck:
+    description: 로또 당첨 확인
+  lottogui:
+    description: 로또 번호 선택 gui 열기
+  lotto:
+    description: 내 로또 번호 확인
+  lottoedit:
+    description: 로또 당첨번호 수정
+  givelotto:
+    description: 로또
+  lottoraffle:
+    description: 로또 당첨금액 입금
+  moneyrank:
+    description: 플레이어 보유 머니 결과 확인
+  상점:
+    description: 상점 얻기
+  money:
+    description: 플레이어의 돈을 관리합니다.
+    usage: /money <set|add|remove> <플레이어> <금액>
+  spawn:
+    description: 월드 스폰지점으로 이동
+  timer:
+    description: 타이머 설정
+
+
